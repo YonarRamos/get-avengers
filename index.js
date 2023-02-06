@@ -18,13 +18,13 @@ export const getOne = (index) => {
     return 'No existe'
 }
 //1.2
-/* export const getByName = (name) => {
+export const getByName = (name) => {
     if(name ) {
         const hero = avengers.find( item => item.name.toLowerCase().includes(String(name).toLowerCase()) || item.hero.toLowerCase().includes(String(name).toLowerCase()))
         if(hero) return hero        
     }
 
     return 'No existe'
-} */
+}
 
 console.log(getByName())
