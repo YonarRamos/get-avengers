@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "name": "get-avengers",
+  "version": "1.0.0",
+  "description": "installable get-avengers dependency test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YonarRamos/get-avengers.git"
+  },
+  "author": "YonarRamos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YonarRamos/get-avengers/issues"
+  },
+  "homepage": "https://github.com/YonarRamos/get-avengers#readme",
+  "dependencies": {
+    "unique-random-array": "^3.0.0"
+  }
+}
